@@ -10,13 +10,23 @@ import gc
 classs=[]
 
 #snake game for test
-#Pin
+#LCDPin
 #BL-->GPIO5
 #CS-->GPIO4
 #DC-->GPIO3
 #RST-->GPIO2
 #SDA-->GPIO1
 #SCL-->GPIO0
+#controllerPin
+#com=6
+#UP=7
+#DOWN=8
+#LEFT=9
+#RIGHT=10
+#MID=11
+#SET=12
+#RESET=13
+
 
 class Body():
     def __init__(self,pos):
